@@ -1,0 +1,160 @@
+
+
+.vector-3 {
+    width: 100%;
+    height: 6.1%;
+    position:absolute;
+    z-index: -1;
+}
+
+.vector-4 {
+    z-index: -1;
+    width: 100%;
+    height: 6.1%;
+    position:absolute;
+}
+
+.slider-container {
+    display: flex;
+    margin-top: 3rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    margin-top: 12rem;
+    font-family: AenoikTrial-Regular;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+}
+
+.name {
+    font-size: 25px;
+    font-family: AenoikTrial-Regular;
+}
+
+.vendor {
+    color: #32B76F;
+    font-size: 14px;
+    font-family: AenoikTrial-Regular;
+}
+
+.remark {
+    margin-top: 1.5rem;
+    font-size: 12px;
+    font-family: AenoikTrial-Light;
+}
+
+.slider-card {
+    border: 1px solid #32B76F;
+    width: 408px;
+    height: 314px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    background-color: rgba(255, 255, 255, 0.084) ;
+    backdrop-filter: blur(8px);
+   
+}
+
+@media screen and (max-width:1024px) {
+    .vector-3 {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .vector-4 {
+        z-index: -1;
+        width: 100%;
+        height: 5%;
+        position: absolute;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 36px;
+        margin-top: 12rem;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .vendor {
+        color: #32B76F;
+        font-size: 14px;
+    }
+
+    .remark {
+        margin-top: 1.5rem;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .vector-3 {
+        width: 100%;
+        height: 7%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .vector-4 {
+        z-index: -1;
+        width: 100%;
+        height: 7%;
+        position: absolute;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 7rem;
+    }
+
+    .avatar img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .name {
+        font-size: 21px;
+    }
+
+    .vendor {
+        color: #32B76F;
+        font-size: 12px;
+    }
+
+    .remark {
+        margin-top: 1.5rem;
+        font-size: 10px;
+    }
+
+    .slider-card {
+        border: 1px solid #32B76F;
+        width: 335px;
+        height: 262px;
+        padding: 1rem;
+        border-radius: 20px;
+        margin-bottom: 0.1rem;
+        margin-left: 2rem;
+    }
+
+}

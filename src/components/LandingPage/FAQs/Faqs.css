@@ -1,0 +1,190 @@
+.faqs-container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: AenoikTrial-Regular;
+    margin-bottom: 12rem;
+}
+
+.faqs {
+    text-align: center;
+    font-size: 64px;
+}
+
+.questions {
+    text-align: center;
+    font-size: 36px;
+    color: #666666;
+}
+
+details {
+    border-radius: 10px;
+    background-color: #0D3A3C;
+    color: white;
+    padding: 2rem;
+    width: 1200px;
+
+}
+
+summary {
+    font-size: 32px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-p {
+    font-size: 25px;
+    margin-top: 2rem;
+   
+}
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+details>summary:active{
+    transition: 1s;
+    transform: translateY(5px);
+}
+
+details>summary::after {
+    content: "+";
+    font-size: 1.5em;
+    color: white;
+    margin-right: 0.5em;
+}
+
+details[open]>summary::after {
+    content: "-";
+}
+.faq-CC{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.have-questions{
+    font-size: 64px;
+    text-align: center;
+}
+.cant{
+    font-size: 25px;
+    color: #666666;
+    text-align: center;
+}
+.get-in-touch{
+    font-size: 17px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #32B76F;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.get-in-touch:hover{
+    background-color: #1d9f5a;
+}
+.get-in-touch:active{
+    transform: translateY(4px);
+}
+
+
+@media screen and (max-width:1024px) {
+    details{
+        border-radius: 10px;
+        background-color: #0D3A3C;
+        color: white;
+        padding: 2rem;
+        width: auto;
+    
+    }
+    .have-questions{
+        font-size: 36px;
+        text-align: center;
+    }
+    .cant{
+        font-size: 25px;
+        color: #666666;
+        text-align: center;
+    }
+}
+@media screen and (max-width:767px){
+    .faqs {
+        font-size: 25px;
+    }
+    
+    .questions {
+        font-size: 14px;
+    }
+    details{
+        border-radius: 10px;
+        background-color: #0D3A3C;
+        color: white;
+        padding: 2rem;
+       width: 345px ; 
+    
+    }
+    summary {
+        font-size: 12px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .summary-p {
+        font-size: 10px;
+        margin-top: 2rem;
+    }
+    .have-questions{
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .cant{
+        font-size: 14px;
+        color: #666666;
+        text-align: center;
+    }
+    .faqs-container {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: AenoikTrial-Regular;
+        margin-bottom: 12rem;
+    }
+    .get-in-touch{
+        font-size: 14px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: #32B76F;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        margin-top: 1rem;
+    }
+    
+
+}

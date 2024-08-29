@@ -1,0 +1,123 @@
+
+/* h1{
+    font-size: 10rem;
+} */
+.ext-link-bg{
+    background-color: #0D3A3C;
+    height: 634px;
+    margin-bottom: 2rem;
+}
+.ext-link-vector{
+    position: relative;
+    top: 4.5rem;
+    width: 100%;
+    height: 70%;
+}
+.terms-of-use{
+    color: #32B76F;
+    font-size: 96px;
+    font-family: AenoikTrial-Regular ;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -7rem ;
+
+}
+.Terms-list{
+    font-family: AenoikTrial-Regular;
+    font-size: 20px;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    justify-content: space-between;
+    margin-bottom: 18rem;
+    margin-top: 4rem;
+}
+
+ .Terms-h6-1{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 2rem;
+}
+.terms-p{
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.Contact{
+    margin-bottom: 160px;
+}
+.Term-of-use-li{
+    margin-left: 1.2rem;
+
+}
+/* click on campusdash logo to go back to the landing page in the nav */
+/* Adjust this text as you see fit */
+/* this css applies to all the external pages About us, Privacy policy etc */
+/* Add css to the others for unique page styling especially the About Us */
+/* to add font family just use this {font-family: AenoikTrial-Regular ;} ive added the fonts to the app.css so you can call it anywhere */
+/* .ext-link-text{
+    margin-bottom: 2rem;
+    margin-left: 2rem ;
+    margin-right:2rem ;
+} */
+@media screen and (max-width:1024px){
+    .ext-link-bg{
+        background-color: #0D3A3C;
+        height: 600px;
+        font-size: 64px;
+    }
+
+    .Terms-list{
+        font-size: 27px;
+        margin-top: 4rem;
+        margin-right: 6rem;
+        margin-left: 6rem;
+    }
+    .terms-h6{
+        font-size: 25px;
+    }
+    .terms-p{
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:767px){
+    .ext-link-bg{
+        background-color: #0D3A3C;
+        height: 300px;
+    }
+    .terms-of-use{
+        color: #32B76F;
+        font-size: 30px;
+        font-family: AenoikTrial-Regular ;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0rem ;
+        
+    
+    }
+
+    .Terms-list{
+        font-size: 20px;
+        margin-top:1rem ;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 10rem ;
+    }
+    .Terms-h6-1{
+        font-size: 19px;
+    }
+    .terms-h6{
+        font-size: 17px;
+    }
+    .terms-p{
+        font-size: 14px;
+    }
+}

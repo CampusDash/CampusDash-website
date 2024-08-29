@@ -1,0 +1,18 @@
+@font-face{
+  font-family: AenoikTrial-Bold;
+  src: url(/src/assets/AeonikTRIAL-Bold.otf);
+}
+@font-face{
+  font-family: AenoikTrial-Light;
+  src: url(/src/assets/AeonikTRIAL-Light.otf);
+}
+@font-face{
+  font-family: AenoikTrial-Regular;
+  src: url(/src/assets/AeonikTRIAL-Regular.otf);
+}
+html {
+  scroll-behavior: smooth;
+}
+.routes-container{
+  margin-top: -12.5rem;
+}

@@ -1,0 +1,368 @@
+
+
+/* .hero-bg {
+    background-image: url("./Gridlayers.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 2261px; 
+
+} */
+
+.ellipse1 {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    z-index: -1;
+    width: 50%;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 50%;
+    top: 4%;
+    left: 50%;
+    z-index: -1;
+}
+/* 
+.nav-bar {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.campusdash-logo {
+    background-color: #32B76F;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.campusdash-logo img {
+    width: 80%;
+}
+
+.nav-container-2 {
+    display: flex;
+    gap: 70px;
+}
+
+
+.nav-links ul {
+    width: 633.09px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 16px;
+    font-family: AenoikTrial-Regular;
+
+}
+.nav-link-li{
+cursor: pointer;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.nav-link-li:hover{
+    color: #32B76F;
+}
+
+.become-vendor {
+    background-color: #32B76F;
+    font-size: 17px;
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: AenoikTrial-Regular;
+    cursor: pointer;
+}
+.become-vendor:hover{
+    background-color: #1d9f5a;
+}
+.become-vendor:active{
+    transform: translateY(4px);
+} */
+ /* .navvv{
+    position: sticky;
+    top: 0;
+ } */
+
+.phone-display {
+    width: 45%;
+    height: 50%;
+    margin-top: 5%;
+    padding-top: 12rem;
+    margin-left: 23%;
+    display: flex;
+}
+
+.bg-blur-white {
+    width: 100%;
+    position: absolute;
+    top: -43%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.conecting-stdnts {
+    z-index: 1;
+    position: relative;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 120px;
+    font-family: AenoikTrial-Bold;
+}
+
+.conecting-stdnts span {
+    background-color: white;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 10px;
+}
+
+.waitlist {
+    margin-top: 8rem;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+
+}
+
+.waitlist-email {
+    width: 662px;
+    height: 100px;
+    border-radius: 80px;
+    padding-left: 40px;
+    font-size: 20px;
+    border-color: gray;
+    font-family: AenoikTrial-Regular;
+    outline-style: none;
+    outline: none;
+}
+
+.waitlist-btn-submit {
+    font-size: 30px;
+    width: 300px;
+    border-radius: 80px;
+    background-color: #32B76F;
+    color: white;
+    border: none;
+    font-family: AenoikTrial-Regular;
+    cursor: pointer;
+}
+.waitlist-btn-submit:hover{
+    background-color: #1d9f5a;
+}
+.waitlist-btn-submit:active{
+    transform: translateY(4px);
+}
+
+/* .nav-btn {
+    background-color: #32B76F;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    font-size: 0.7rem;
+} */
+
+@media screen and (max-width:1024px) {
+     /* .nav-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    /* .hero-bg{
+        min-height:1500px ;
+        /* margin-bottom: 2rem; 
+    } */
+
+
+    /* .shapes-bg {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    } */
+
+    /* .nav-container-2 {
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        left:0;
+        right:  -100vh;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #0D3A3C;
+        gap: 1.5rem;
+        color: white;
+        transition:1s ease-in-out;
+    }
+
+    nav .responsive_nav {
+        transform: translateX(109vh);
+        /* transition:1s; 
+        overflow: hidden;
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 1.7rem;
+        right: 2rem;
+    }
+
+    .campusdash-logo {
+        background-color: #32B76F;
+        width: 180px;
+        height: 70px;
+        border-radius: 50px;
+        margin-right: 25rem;
+    }
+
+    .nav-links {
+        background-color: #0D3A3C;
+        border: none;
+        border-radius: none;
+        margin-top: 1rem;
+        width: 50%;
+        margin-left: 3rem;
+
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 19px;
+    }  
+
+    .become-vendor {
+        background-color: #0D3A3C;
+        font-size: 19px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-top: 100px;
+        /* margin-left: -54px; 
+    } */
+
+    .conecting-stdnts {
+        font-size: 56px;
+        line-height: 80px;
+    }
+
+    /* .bg-blur-white {
+        top: 5%;
+        width: 100%;
+    } */
+
+    .waitlist {
+        margin-top: 5rem;
+        gap: 20px;
+
+    }
+
+    .waitlist-email {
+        width: 450px;
+        height: 80px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+
+    .waitlist-btn-submit {
+        font-size: 23px;
+        width: 190px;
+        border-radius: 80px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    /* .nav-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 0.7rem;
+    } */
+    /* .hero-bg{
+        min-height:650px ;
+    } */
+
+    .conecting-stdnts {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .bg-blur-white {
+        width: 100%;
+    }
+
+    .waitlist {
+        margin-top: 30px;
+        gap: 24px;
+
+    }
+
+    .waitlist-email {
+        width: 180px;
+        height: 40px;
+        padding-left: 20px;
+        font-size: 10px;
+
+    }
+
+    .waitlist-btn-submit {
+        font-size: 10px;
+        width: 90px;
+    }
+
+    /* .campusdash-logo {
+        margin-right: 7rem;
+        width: 100px;
+        height: 30px;
+    } */
+
+}

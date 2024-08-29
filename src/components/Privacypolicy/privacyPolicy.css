@@ -1,0 +1,65 @@
+.Privacy-list{
+    font-family: AenoikTrial-Regular;
+    font-size: 20px;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    justify-content: space-between;
+    margin-bottom: 18rem;
+    margin-top: 4rem;
+}
+/* h6{
+    font-size: 25px;
+    margin-top: 25px;
+} */
+.P-policy{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 2rem;
+}
+/* p{
+    margin-top: 15px;
+} */
+.Governing{
+    margin-bottom: 160px;
+}
+.P-policy-li{
+    margin-left: 1.2rem;
+}
+
+
+@media screen and (max-width:1024px){
+    .Privacy-list{
+        font-size: 27px;
+        margin-top: 4rem;
+        margin-right: 6rem;
+        margin-left: 6rem;
+    }
+    /* h6{
+        font-size: 25px;
+    }
+    p{
+        font-size: 28px;
+    } */
+    
+
+}
+@media screen and (max-width:767px){
+    .Privacy-list{
+        font-size: 20px;
+        margin-top:1rem ;
+        margin-right:1rem;
+        margin-left: 1rem;
+        margin-bottom: 10rem;
+    }
+    /* h6{
+        font-size: 20px;
+    }
+    p{
+        font-size: 17px;
+    } */
+    .P-policy{
+        font-size: 19px;
+        margin-bottom: 1rem;
+    }
+    
+}

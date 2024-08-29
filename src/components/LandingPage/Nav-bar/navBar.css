@@ -1,0 +1,211 @@
+
+.nav-bar {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.campusdash-logo {
+    background-color: #32B76F;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.campusdash-logo img {
+    width: 80%;
+}
+
+.nav-container-2 {
+    display: flex;
+    gap: 70px;
+}
+
+
+.nav-links ul {
+    width: 633.09px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 16px;
+    font-family: AenoikTrial-Regular;
+
+}
+.nav-link-li{
+cursor: pointer;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.nav-link-li:hover{
+    color: #32B76F;
+}
+
+.become-vendor {
+    background-color: #32B76F;
+    font-size: 17px;
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: AenoikTrial-Regular;
+    cursor: pointer;
+}
+.become-vendor:hover{
+    background-color: #1d9f5a;
+}
+.become-vendor:active{
+    transform: translateY(4px);
+}
+.nav-btn {
+    background-color: #32B76F;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    font-size: 0.7rem;
+}
+.nav-btn:active{
+    transform: translateY(4px);
+}
+.ext-link{
+    text-decoration: none;
+}
+.navv-linkk{
+    text-decoration: none;
+    color: black;
+}
+ 
+@media screen and (max-width:1024px) {
+    .nav-bar {
+        display: flex;
+        gap: 70px;
+        justify-content: space-around;
+        
+    }
+    .nav-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    /* .hero-bg{
+        min-height:1500px ;
+        /* margin-bottom: 2rem; 
+    } */
+
+
+    /* .shapes-bg {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    } */
+
+    .nav-container-2 {
+        z-index: 2;
+        position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 2.5rem;
+		background-color: #0D3A3C;
+		transition: 0.7s ;
+        padding-top: 2rem;
+    }
+
+    nav .responsive_nav {
+         transform: translateY(100vh); 
+        overflow: hidden;
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 1.7rem;
+        right: 2rem;
+    }
+
+    .campusdash-logo {
+        background-color: #32B76F;
+        width: 170px;
+        height: 70px;
+        border-radius: 50px;
+        margin-right: 16rem;
+    }
+
+    .nav-links {
+        border: none;
+        border-radius: none;
+        margin-top: 1rem;
+
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 19px;
+        background-color: #0D3A3C;
+        width: 100%;
+        border: none;
+    } 
+
+    .become-vendor {
+            background-color: #32B76F;
+            font-size: 18px;
+            width: 170px;
+            height: 50px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: AenoikTrial-Regular;
+            cursor: pointer;
+            margin-top: 100px; 
+        
+    }
+
+        
+}
+@media screen and (max-width:767px){
+       .nav-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 0.7rem;
+    } 
+     .campusdash-logo {
+        margin-right: 7rem;
+        width: 100px;
+        height: 30px;
+    } 
+}
