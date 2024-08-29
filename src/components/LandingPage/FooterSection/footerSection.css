@@ -249,10 +249,10 @@ z-index: -1;
             width: 15%;
         }
         .footer-half-phone{
-            width:60% ;
+            width:80% ;
         position: relative;
-        left: 5.5rem;
-        top: 2rem;
+        left: 2.5rem;
+        top: 3rem;
         z-index: -1;
         }
         .footer{

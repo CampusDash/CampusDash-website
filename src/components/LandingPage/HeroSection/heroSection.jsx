@@ -12,7 +12,7 @@ function HeroSection() {
                     <img className="phone-display" src="./UHJK 1.svg" alt="" />
                     <p className="conecting-stdnts">
                     <img className="bg-blur-white" src="./Rectangle 5983.svg" alt="bg-blur" />
-                        Connecting students <br /> with campus <span>vendors</span> for a <br />seamless <span>shopping</span> <br /> experience.
+                        Connecting students  with campus <span>vendors</span> for a seamless <span>shopping</span> experience.
                     </p>
                     <div className="waitlist">
                         <input className="waitlist-email" type="email" placeholder="name@email.com" name="" id="" />

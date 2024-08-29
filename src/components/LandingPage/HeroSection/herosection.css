@@ -140,6 +140,8 @@ align-items: center;
     font-size: 90px;
     line-height: 120px;
     font-family: AenoikTrial-Bold;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .conecting-stdnts span {
@@ -293,6 +295,8 @@ align-items: center;
     .conecting-stdnts {
         font-size: 56px;
         line-height: 80px;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     /* .bg-blur-white {
@@ -334,6 +338,8 @@ align-items: center;
     .conecting-stdnts {
         font-size: 27px;
         line-height: 40px;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .bg-blur-white {
