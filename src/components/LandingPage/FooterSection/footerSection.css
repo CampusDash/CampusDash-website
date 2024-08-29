@@ -70,17 +70,17 @@ z-index: -1;
     flex-direction: column;
     margin: 0 auto;
 }
-.footer-texts h4{
+.footer-texts-h4{
     font-size: 23px;
     margin-bottom: 1rem;
 }
-.footer-texts p{
+.footer-texts-p{
     font-size: 16px;
     line-height: 1.5rem;
     margin-bottom: 0rem;
     cursor: pointer;
 }
-.footer-texts p:hover{
+.footer-texts-p:hover{
     color: #32B76F;
 }
 .footer-download-2{
@@ -182,7 +182,7 @@ z-index: -1;
 }
 @media screen and (max-width:767px){
     .your-next{
-        font-size: 25px;
+        font-size: 23px;
     }
     .download-now{
         font-size: 12px;
@@ -201,11 +201,11 @@ z-index: -1;
         gap: 1rem;
         margin-top: 2rem;
      }
-     .footer-texts h4{
+     .footer-texts-h4{
         font-size: 20px;
         margin-bottom: 0.5rem;
     }
-    .footer-texts p{
+    .footer-texts-p{
         font-size: 14px;
         line-height: 1.5rem;
     }

@@ -7,30 +7,30 @@ function Footer() {
             <section className="footer">
                 <footer className="footer-cont">
                     <div className="footer-texts">
-                        <h4>About</h4>
-                        <p>About us</p>
-                        <p>E-mail</p>
-                        <p>LinkedIn</p>
-                        <p>Twitter</p>
-                        <p>Instagram</p>
+                        <h4 className="footer-texts-h4">About</h4>
+                        <p className="footer-text-p">About us</p>
+                        <p className="footer-text-p">E-mail</p>
+                        <p className="footer-text-p">LinkedIn</p>
+                        <p className="footer-text-p">Twitter</p>
+                        <p className="footer-text-p">Instagram</p>
 
                     </div>
                     <div className="footer-texts">
-                        <h4>Support</h4>
-                        <p>Help Center</p>
-                        <p>Vendor Support</p>
-                        <p>Report an Issue</p>
+                        <h4  className="footer-texts-h4">Support</h4>
+                        <p className="footer-text-p">Help Center</p>
+                        <p className="footer-text-p">Vendor Support</p>
+                        <p className="footer-text-p">Report an Issue</p>
                     </div>
                     <div className="footer-texts">
-                        <h4>Partnership Opportunities</h4>
-                        <p>Become a Vendor</p>
-                        <p>Manage Deliveries</p>
-                        <p>Sponsorship</p>
+                        <h4  className="footer-texts-h4">Partnership Opportunities</h4>
+                        <p className="footer-text-p">Become a Vendor</p>
+                        <p className="footer-text-p">Manage Deliveries</p>
+                        <p className="footer-text-p">Sponsorship</p>
                     </div>
                     <div className="footer-texts">
-                        <h4 >Legal</h4>
-                        <Link className="ext-linkk" to = '/term-of-use'><p>Terms of Service</p></Link>
-                        <Link className="ext-linkk" to = "/privacy-policy"><p>Privacy Policy</p></Link>
+                        <h4  className="footer-texts-h4" >Legal</h4>
+                        <Link className="ext-linkk" to = '/term-of-use'><p className="footer-text-p">Terms of Service</p></Link>
+                        <Link className="ext-linkk" to = "/privacy-policy"><p className="footer-text-p">Privacy Policy</p></Link>
                         
                     </div>
                 </footer>

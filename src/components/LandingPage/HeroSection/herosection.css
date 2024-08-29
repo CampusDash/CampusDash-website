@@ -332,7 +332,7 @@ align-items: center;
     } */
 
     .conecting-stdnts {
-        font-size: 24px;
+        font-size: 27px;
         line-height: 40px;
     }
 
@@ -349,14 +349,14 @@ align-items: center;
     .waitlist-email {
         width: 180px;
         height: 40px;
-        padding-left: 20px;
-        font-size: 10px;
+        padding-left: 15px;
+        font-size: 12px;
 
     }
 
     .waitlist-btn-submit {
-        font-size: 10px;
-        width: 90px;
+        font-size: 12px;
+        width: 100px;
     }
 
     /* .campusdash-logo {
@@ -364,5 +364,12 @@ align-items: center;
         width: 100px;
         height: 30px;
     } */
-
+    .phone-display {
+        width: 52%;
+        height: 50%;
+        margin-top: 5%;
+        padding-top: 12rem;
+        margin-left: 23%;
+        display: flex;
+    }
 }

@@ -1,6 +1,6 @@
 
 
-h2{
+.we-built{
     font-size: 64px;
     font-family: AenoikTrial-Regular;
     display: flex;
@@ -59,7 +59,7 @@ h2{
     color: #4D4D4D;
   }
   @media screen and (max-width:1024px){
-    h2{
+    .we-built{
         font-size: 50px;
     }
     .name-list{
@@ -110,8 +110,8 @@ h2{
 
   }
   @media screen and (max-width:767px){
-    h2{
-        font-size: 19px;
+    .we-built{
+        font-size: 23px;
     }
     .name-list{
         background-color: #F5F5F7;

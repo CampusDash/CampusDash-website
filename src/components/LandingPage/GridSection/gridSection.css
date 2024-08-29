@@ -32,13 +32,13 @@
     padding-right: 3rem;
     background-color: #D6F1E2;
 }
-h5{
+.seemless-shopping{
     color: #0D3A3C;
-    font-size: 48px;
+    font-size: 43px;
     margin-top: 2rem;
     font-family: AenoikTrial-Bold;
 }
-.grid-box p {
+.grid-box-p {
     color: #666666;
     font-size: 21px;
     margin-top: 1rem;
@@ -113,7 +113,7 @@ h5{
     text-align: center;
     font-family: AenoikTrial-Regular;
 }
-.get-the h2 {
+.get-the-app {
     font-size: 84px;
     font-family: AenoikTrial-Regular;
 }
@@ -180,7 +180,7 @@ h5{
         margin-right:1rem ;
         margin-top: 0rem;
     }
-    .get-the h2 {
+    .get-the-app {
         font-size: 36px;
     }
     .get-the p{
@@ -246,7 +246,7 @@ h5{
          justify-content: center;
          text-align: center;
         
-        font-size: 25px;
+        font-size: 23px;
     }
     .grid-container{
         margin-left:2rem ;
@@ -262,15 +262,15 @@ h5{
         padding-right: 1rem;
         background-color: #D6F1E2;
     }
-    h5{
+    .seemless-shopping{
         color: #0D3A3C;
         font-size: 25px;
         margin-top: 1rem;
     }
-    .grid-box p {
+    .grid-box-p {
         color: #666666;
-        font-size: 14px;
-        margin-top: 1rem;
+        font-size: 15px;
+        margin-top: 0.3rem;
     }
     .grid-icons{
         /* width: 20%; 
@@ -305,32 +305,32 @@ h5{
     
     }
     .mockup{
-        margin-top:3rem ;
+        margin-top:3.7rem ;
     }
     .reward-card{
         margin-top: 1rem;
     }
-    .get-the h2 {
-        font-size: 30px;
+    .get-the-app {
+        font-size: 27px;
         margin-top: 7rem;
     }
     .get-the p{
-        font-size: 10px;
+        font-size: 12px;
         color: #666666;
         margin-top: 0.5rem;
     }
     .grid-email-2{
-        width: 165px;
-        height: 32px;
+        width: 175px;
+        height: 40px;
         padding-left: 10px;
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 1rem;
     }
     .grid-join-2{
         margin-top: 1rem;
         margin-left: 0.5rem;
-        height: 32px;
-        font-size: 10px;
-        width: 88px;
+        height: 40px;
+        font-size: 12px;
+        width: 100px;
     }
 }

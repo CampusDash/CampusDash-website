@@ -26,7 +26,7 @@ function Founder() {
 
     return (
         <>
-        <h2>We built CampusDash for you</h2>
+        <h2 className=' we-built'>We built CampusDash for you</h2>
         <div className="container">
             <div className="column">
                 <img

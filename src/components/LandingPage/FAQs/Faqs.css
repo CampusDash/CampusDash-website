@@ -125,7 +125,7 @@ details[open]>summary::after {
 }
 @media screen and (max-width:767px){
     .faqs {
-        font-size: 25px;
+        font-size: 23px;
     }
     
     .questions {
@@ -140,7 +140,7 @@ details[open]>summary::after {
     
     }
     summary {
-        font-size: 12px;
+        font-size: 14px;
         list-style: none;
         display: flex;
         justify-content: space-between;
@@ -148,11 +148,11 @@ details[open]>summary::after {
     }
     
     .summary-p {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 2rem;
     }
     .have-questions{
-        font-size: 24px;
+        font-size: 23px;
         text-align: center;
         align-items: center;
         justify-content: center;

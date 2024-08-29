@@ -7,7 +7,7 @@ function Slider(){
            <section>
             <div><img className="vector-3" src="./Vector 3 (1).svg" alt="" />
             <img className="vector-4" src="./Vector 4.svg" alt="" /></div>
-            <div><h2>What Students & <br />Vendors are saying</h2></div>
+            <div><h2 className="what-students-saying">What Students & <br />Vendors are saying</h2></div>
             <div className="slider-container">
                 {/* slider animation here just follow this as a template */}
             <Marquee direction="left" speed={100} delay={2} pauseOnHover={true}>
