@@ -7,10 +7,15 @@ import TermOfUse from "./components/TermofUse/termOfUse";
 import PrivacyPolicy from "./components/Privacypolicy/privacyPolicy";
 import AboutUs from "./components/AboutUs/aboutUs";
 import Footer from "./components/LandingPage/FooterSection/footerSection";
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import { useEffect} from 'react';
 
 function App() {
-
+ const location  = useLocation();
+ useEffect(()=>{
+  window.scrollTo(0,0);
+ }, [location]
+);
 
   return (
     <>

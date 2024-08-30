@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './founders.css';
 
 const employees = [
-    { id: 1, name: 'Gbemi', role:"Co-Founder/Design/Anywork", image: './Adura.svg' },
-    { id: 2, name: 'Ameerah', role:"Co-Founder/Engineering", image: './Ameerah.svg' },
-    { id: 3, name: 'Yemi',role:"Co-Founder/Engineering", image: './yemi.svg' },
-    { id: 4, name: 'Feranmi',role:"Co-Founder/Growth and marketing", image: './femi.svg' },
-    { id: 5, name: 'Faith',role:"Product Manager", image: './faith.svg' },
-    { id: 6, name: 'Jones',role:"Engineering", image: './gideon.svg' },
+    { id: 1, name: 'Gbemi', role:"Co-Founder/Design/Anywork", image: '/Adura.svg' },
+    { id: 2, name: 'Ameerah', role:"Co-Founder/Engineering", image: '/Ameerah.svg' },
+    { id: 3, name: 'Yemi',role:"Co-Founder/Engineering", image: '/yemi.svg' },
+    { id: 4, name: 'Feranmi',role:"Co-Founder/Growth and marketing", image: '/femi.svg' },
+    { id: 5, name: 'Faith',role:"Product Manager", image: '/faith.svg' },
+    { id: 6, name: 'Jones',role:"Engineering", image: '/gideon.svg' },
 ];
 
 

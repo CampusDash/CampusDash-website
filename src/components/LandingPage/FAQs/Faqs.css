@@ -135,8 +135,12 @@ details[open]>summary::after {
         border-radius: 10px;
         background-color: #0D3A3C;
         color: white;
-        padding: 2rem;
-       width: 345px ; 
+        padding: 1rem;
+       width: 325px ; 
+       margin-left: 1rem;
+       margin-right: 1rem;
+       margin-bottom: -0.5rem;
+       
     
     }
     summary {
@@ -149,7 +153,7 @@ details[open]>summary::after {
     
     .summary-p {
         font-size: 12px;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .have-questions{
         font-size: 23px;

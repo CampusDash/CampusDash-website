@@ -7,11 +7,11 @@ function HeroSection() {
         <>
             <section id="Home">
                 <div className="shapes-bg">
-                    <img className="ellipse1" src="./Ellipse 1299.svg" alt="" />
-                    <img className="ellipse2" src="./Ellipse 1300.svg" alt="" />
-                    <img className="phone-display" src="./UHJK 1.svg" alt="" />
+                    <img className="ellipse1" src="/Ellipse 1299.svg" alt="" />
+                    <img className="ellipse2" src="/Ellipse 1300.svg" alt="" />
+                    <img className="phone-display" src="/UHJK 1.svg" alt="" />
                     <p className="conecting-stdnts">
-                    <img className="bg-blur-white" src="./Rectangle 5983.svg" alt="bg-blur" />
+                    <img className="bg-blur-white" src="/Rectangle 5983.svg" alt="bg-blur" />
                         Connecting students  with campus <span>vendors</span> for a seamless <span>shopping</span> experience.
                     </p>
                     <div className="waitlist">

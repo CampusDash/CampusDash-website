@@ -1,4 +1,4 @@
-.about-the-app{
+.about-the-app {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,48 +7,48 @@
     font-family: AenoikTrial-Regular;
     margin-top: 43rem;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 5vh;
     color: #514e4e;
     padding-top: 13px;
     line-height: 1.3;
     font-weight: 400;
     font-family: AenoikTrial-Regular;
     margin-bottom: 12rem;
-    /* width: 960px; */
-    /* margin-left: 13rem;
-    margin-right: 13rem;
-    padding-left: 5rem;
-    padding-right: 5rem; */
 }
 
-@media screen and (max-width:1024px){
-    .about-the-app{
+@media screen and (max-width:1024px) {
+    .about-the-app {
         font-size: 36px;
         margin-top: 24rem;
     }
-    .info{
-        font-size: 30px;
+
+    .info {
+        font-size: 2.3vh;
+        /* font-size: 30px; */
+        margin-left: 3rem;
+        margin-right: 3rem;
 
     }
 
 }
-@media screen and (max-width:767px){
-    .about-the-app{
+
+@media screen and (max-width:767px) {
+    .about-the-app {
         font-size: 23px;
-        margin-top:8rem ;
+        margin-top: 8rem;
     }
-    .info{
-        font-size: 15px;
-        margin-bottom: 5rem;
-        margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    padding-left:1rem;
-    padding-right:1rem ;
+
+    .info {
+        font-size: 1.6vh;
+        margin-bottom: 2.5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
 
     }
 }

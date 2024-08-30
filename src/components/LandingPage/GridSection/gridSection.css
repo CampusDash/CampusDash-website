@@ -288,7 +288,7 @@
         width: 256px;
         height: 53px;
         border-radius: 80px;
-        padding-left: 30px;
+        padding-left: 20px;
         font-size: 12px;
         border-color: gray;
         margin-top: 4rem;
@@ -322,7 +322,7 @@
     .grid-email-2{
         width: 175px;
         height: 40px;
-        padding-left: 10px;
+        padding-left: 15px;
         font-size: 12px;
         margin-top: 1rem;
     }

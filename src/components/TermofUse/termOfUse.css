@@ -116,11 +116,15 @@
     }
     .Terms-h6-1{
         font-size: 19px;
+        margin-bottom: 1rem;
     }
     .terms-h6{
         font-size: 17px;
+        
     }
     .terms-p{
         font-size: 14px;
+        margin-bottom: 2rem;
+        margin-top: 0.5rem;
     }
 }
