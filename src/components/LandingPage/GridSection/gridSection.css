@@ -64,7 +64,7 @@
     justify-content: center;
 }
 .mockup{
-    margin-top:2.5rem ;
+    margin-top:6.45rem ;
     width: 90%;
 }
 .avatar{
@@ -73,7 +73,7 @@
 }
 .reward-card{
     width: 97%;
-    margin-top: 2.8rem;
+    margin-top: 3.2rem;
 }
 .grid-email{
     width: 412px;
@@ -112,6 +112,7 @@
     flex-direction: column;
     text-align: center;
     font-family: AenoikTrial-Regular;
+    margin-top: 9rem;
 }
 .get-the-app {
     font-size: 84px;
