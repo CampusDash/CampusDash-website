@@ -11,7 +11,7 @@ import "./landingPage.css";
 function LandingPage() {
     return (
         <>
-            <section className='hero-bg'>
+            <section>
                 
                 <HeroSection />
                 <AboutTheApp />

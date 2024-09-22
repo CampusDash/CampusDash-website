@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 64px;
+    font-size: 60px;
     font-family: AenoikTrial-Regular;
 }
 .grid{
@@ -115,7 +115,7 @@
     margin-top: 9rem;
 }
 .get-the-app {
-    font-size: 84px;
+    font-size: 60px;
     font-family: AenoikTrial-Regular;
 }
 .get-the p{
@@ -125,8 +125,8 @@
     font-family: AenoikTrial-Regular;
 }
 .grid-email-2{
-    width: 662px;
-    height: 100px;
+    width: 500px;
+    height: 75px;
     border-radius: 80px;
     padding-left: 40px;
     font-size: 20px;
@@ -137,9 +137,9 @@
 .grid-join-2{
     margin-top: 3rem;
     margin-left: 2rem;
-    font-size: 30px;
-    height: 100px;
-    width: 300px;
+    font-size: 20px;
+    height: 75px;
+    width: 250px;
     border-radius: 80px;
     background-color: #32B76F;
     color: white;

@@ -3,9 +3,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 64px;
+    font-size: 55px;
     font-family: AenoikTrial-Regular;
-    margin-top: 43rem;
+    margin-top: 10rem;
 }
 
 .info {
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 5vh;
+    font-size:30px;
     color: #514e4e;
     padding-top: 13px;
     line-height: 1.3;

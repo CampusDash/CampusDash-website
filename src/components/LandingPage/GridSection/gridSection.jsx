@@ -4,7 +4,7 @@ function GridSection() {
     return (
         <>
             <section className="grid-container">
-                <h3 className="feel">Feel the best experience <br /> with our features</h3>
+                <h5 className="feel">Feel the best experience <br /> with our features</h5>
                 <div className="grid">
                     <div className="grid-box">
                         <div className="grid-icons" ><img className="" src="/shopping-bag.svg" alt="shopping-bag" /></div>
@@ -35,7 +35,7 @@ function GridSection() {
                     </div>
                 </div>
                 <div className="get-the">
-                    <h6 className="get-the-app" >Get the Mobile app.</h6>
+                    <h7 className="get-the-app" >Get the Mobile app.</h7>
                     <p>Kindly get notified when the app is released by joining <br /> our waitlist</p>
                     <div>
                         <input className="grid-email-2" type="email" placeholder="name@gmail.com" name="" id="" />
