@@ -76,7 +76,7 @@ align-items: center;
     background-color: #1d9f5a;
 }
 .become-vendor:active{
-    transform: translateY(4px);
+    transform: translateY(5px);
 }
 .nav-btn {
     background-color: #32B76F;

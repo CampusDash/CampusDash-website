@@ -164,7 +164,7 @@
         max-width: 860px ;
         row-gap: 1rem;
         grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-        margin-top: 3.5rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .grid-box{
@@ -314,6 +314,9 @@
     .get-the-app {
         font-size: 27px;
         margin-top: 7rem;
+    }
+    .get-the{
+        margin-top: 1rem;
     }
     .get-the p{
         font-size: 12px;

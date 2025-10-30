@@ -14,7 +14,7 @@ function HeroSection() {
                         <p className="bridging-gap">Join our waitlist today for early access to our platform</p>
                         <div>
                             <input className="hero-email" type="email" placeholder="name@gmail.com" name="" id="" />
-                            <button className="hero-join">Join the waitlist</button>
+                            <button className="hero-join">Join</button>
                         </div>
                     </div>
                     <div>

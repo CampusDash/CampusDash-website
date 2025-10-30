@@ -16,8 +16,8 @@ function LandingPage() {
                 <HeroSection />
                 <AboutTheApp />
                 <GridSection />
-                <Slider />
-                <Founder />
+                {/* <Slider /> */}
+                {/* <Founder /> */}
                 <Faqs />
                 <PreFooter />
             </section>
