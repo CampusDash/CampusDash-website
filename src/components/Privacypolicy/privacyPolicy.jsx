@@ -11,7 +11,7 @@ function PrivacyPolicy() {
             <div className="Privacy-list">
                 <div className="privacy">
                     <h6 className="P-policy">PRIVACY POLICY</h6>
-                    <p className="terms-p">At CampusDash ("We", "Our", or "Us"), your privacy is of utmost importance to us. This Privacy Policy outlines how we collect, use, share and safeguard your personal information when you interact with our services, including our website, mobile application, and any other platform where CampusDash operates. We are committed to ensuring that your personal data is handled with transparency and care. By using our services, you agree to the practices described in this policy. </p>
+                    <p className="terms-p">At CampusDash, your privacy is of utmost importance to us. This Privacy Policy outlines how we collect, use, share and safeguard your personal information when you interact with our services, including our website, mobile application, and any other platform where CampusDash operates. We are committed to ensuring that your personal data is handled with transparency and care. By using our services, you agree to the practices described in this policy. </p>
                 </div>
                 <div className="Document">
                     <h6 className="terms-h6">2. Document Version Control</h6>
@@ -109,7 +109,7 @@ function PrivacyPolicy() {
                 </div>
                 <div className="Governing">
                     <h6 className="terms-h6">20. Governing Law</h6>
-                    <p  className="terms-p">This policy is governed by [Applicable Law]. Any disputes will be resolved undrr the jurisdiction of [Country/State].</p>
+                    <p  className="terms-p">This policy is governed by the Nigerian laws on Privacy. Any disputes will be resolved undrr the jurisdiction of Nigeria.</p>
                 </div>
             </div>
         </>

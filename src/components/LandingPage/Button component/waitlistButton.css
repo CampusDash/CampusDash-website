@@ -1,0 +1,107 @@
+ /* .waitlist-container {
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+} */
+
+.waitlist-container input {
+  /* width: 50%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 14px; */
+     width: 412px;
+    height: 63px;
+    border-radius: 80px;
+    padding-left: 30px;
+    font-size: 16px;
+    border: 1px solid black;
+    font-family: AenoikTrial-Regular;
+}
+
+.waitlist-container button {
+  /* width: 10%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; */
+   margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    font-size: 18px;
+    width: 160px;
+    height:63px ;
+    border-radius: 80px;
+    background-color: #32B76F;
+    color: white;
+    border: none;
+    font-family: AenoikTrial-Regular;
+}
+
+.waitlist-container button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:1024px){
+   .waitlist-container input{
+        width: 250px;
+        height: 50px;
+        border-radius: 80px;
+        padding-left: 30px;
+        font-size: 14px;
+        border-color: gray;
+        font-family: AenoikTrial-Regular;
+    }
+    .waitlist-container button{
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        font-size: 14px;
+        width: 150px;
+        height:50px ;
+        border-radius: 80px;
+        background-color: #32B76F;
+        color: white;
+        border: none;
+        font-family: AenoikTrial-Regular;
+    
+    }
+}
+
+@media screen and (max-width:767px){
+       .waitlist-container input{
+        width: 190px;
+        height: 40px;
+        border-radius: 80px;
+        padding-left: 20px;
+        font-size: 10px;
+        border-color: gray;
+        font-family: AenoikTrial-Regular;
+    }
+    .waitlist-container button{
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        font-size: 10px;
+        width: fit-content;
+        padding: 6px 20px ;
+        height:40px ;
+        border-radius: 80px;
+        background-color: #32B76F;
+        color: white;
+        border: none;
+        font-family: AenoikTrial-Regular;
+    
+    }
+}

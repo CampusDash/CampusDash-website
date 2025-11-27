@@ -34,7 +34,7 @@ function NavBar() {
             <nav className="nav-bar">
                 <Link className="ext-link" to="/">
                 <div className="campusdash-logo">
-                    <img src="./Campusdash Final LOGO 4 1.svg" alt="campusdash-logo" />
+                    <img src="./Frame 2147236431.svg" alt="campusdash-logo" />
                 </div>
                 </Link>
                 <div className="nav-container-2" ref={navRef}>

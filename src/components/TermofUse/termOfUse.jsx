@@ -69,11 +69,11 @@ function TermOfUse() {
                 </div>
                 <div>
                     <h6 className="terms-h6">13. Governing Law and Dispute Resolution</h6>
-                    <p className="terms-p">These Terms are governed by the laws of [Your jurisdiction]. Any dispute arising from or related to these Terms or the Services shall be resolved through binding arbitration in [Your jurisdiction], Unless otherwise agreed by the parties.</p>
+                    <p className="terms-p">These Terms are governed by the laws of Nigeria. Any dispute arising from or related to these Terms or the Services shall be resolved through binding arbitration in Nigeria, Unless otherwise agreed by the parties.</p>
                 </div>
                 <div className="Contact">
                     <h6 className="terms-h6">14. Contact Information</h6>
-                    <p className="terms-p">If you have any questions or concerns about these Terms, please contact us at [Your Contact Information].</p>
+                    <p className="terms-p">If you have any questions or concerns about these Terms, please contact us at .....</p>
                 </div>
 
             </div>

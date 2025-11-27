@@ -1,4 +1,5 @@
 import "./herosection.css";
+import WaitlistButton from "../Button component/waitliistButton";
 import NavBar from "../Nav-bar/navBar";
 
 
@@ -13,12 +14,12 @@ function HeroSection() {
                         <img className="people-1" src="./Frame 1171274842 (1).svg" alt="" />
                         <p className="bridging-gap">Join our waitlist today for early access to our platform</p>
                         <div>
-                            <input className="hero-email" type="email" placeholder="name@gmail.com" name="" id="" />
-                            <button className="hero-join">Join</button>
+                            <WaitlistButton/>
                         </div>
                     </div>
                     <div>
                         <div>
+                           
                             <img className="hero-phone" src="./Frame 8249.svg" alt="" />
                             <img className="hero-phone-b" src="./Frame 8249 1.svg" alt="" />
                         </div>

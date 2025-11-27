@@ -232,6 +232,7 @@ z-index: -1;
         }
         .sub-download-22{
             justify-content: center;
+            height: 40.21px;
         }
         .footer-download-2{
             display: grid;
@@ -252,7 +253,7 @@ z-index: -1;
             width:80% ;
         position: relative;
         left: 2.5rem;
-        top: 3rem;
+        top: 6rem;
         z-index: -1;
         }
         .footer{

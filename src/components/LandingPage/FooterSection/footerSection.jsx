@@ -35,7 +35,7 @@ function Footer() {
                     </div>
                 </footer>
                 <div className="footer-download-2">
-                    <div> <img className="footer-campus-dash" src="/CampusDash Logo 2 1 (1).svg" alt="" /></div>
+                    <div> <img className="footer-campus-dash" src="./Frame 2147236431.svg" alt="" /></div>
                     <div className="sub-download">
                         <button className="sub-download-22" > <img className="apple-black" src="/apple.svg" alt="" /><div>Download Now</div> </button>
                         <button  className="sub-download-22" ><img className="google-play-small" src="/Google Play Store 1.svg" alt="" /><div>Download Now</div></button>
