@@ -29,7 +29,7 @@ function GridSection() {
                     </div>
                     <div className="grid-box-c">
                         <div className="grid-icons"><img src="/gift.svg" alt="gift" /></div>
-                        <h5 className="seemless-shopping">Dash Rewards</h5>
+                        <h5 className="seemless-shopping" id="dash">Dash Rewards</h5>
                         <p className="grid-box-p">CampusDash thrives on community, and we believe in rewarding our users for helping us grow. With our referral program, you can earn exclusive rewards by inviting your friends to join CampusDash. Every time a friend signs up using your referral code and makes a purchase, you’ll earn points that can be redeemed for discounts, special offers, and more. The more friends you refer, the bigger the rewards</p>
                         <div className="grid-icon"><img className="reward-card" src="/Frame 109.svg" alt="" /></div>
                     </div>

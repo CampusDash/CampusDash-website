@@ -82,10 +82,10 @@
 
 @media screen and (max-width:767px){
        .waitlist-container input{
-        width: 190px;
+        max-width: 187px;
         height: 40px;
         border-radius: 80px;
-        padding-left: 20px;
+        padding-left: 15px;
         font-size: 10px;
         border-color: gray;
         font-family: AenoikTrial-Regular;
@@ -95,7 +95,7 @@
         margin-top: 1rem;
         font-size: 10px;
         width: fit-content;
-        padding: 6px 20px ;
+        padding: 6px 15px ;
         height:40px ;
         border-radius: 80px;
         background-color: #32B76F;

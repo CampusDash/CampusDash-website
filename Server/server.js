@@ -7,11 +7,33 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
+app.get("/test-upstream", async (req, res) => {
+  try {
+    console.log("Testing upstream...");
+    
+    const upstream = await fetch("https://oouth.campusdash.com.ng/API/endpoint.php", {
+      method: "GET"
+    });
 
-// --------------- CLEAN + EXPRESS 5 SAFE CORS -----------------
+    const text = await upstream.text();
+
+    res.json({
+      ok: true,
+      status: upstream.status,
+      body: text
+    });
+  } catch (err) {
+    res.json({
+      ok: false,
+      error: err.message
+    });
+  }
+});
+
+//main code
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests with no origin (mobile apps, curl, Postman)
+    // this allows requests with no origin (mobile apps, curl, Postman)
     if (!origin) return callback(null, true);
 
     // Allow ANY localhost port during development
@@ -34,12 +56,9 @@ app.use(cors({
   ],
 }));
 
-// IMPORTANT: Express 5 auto-handles OPTIONS if CORS middleware is used.
-// DO NOT ADD app.options("*") — it BREAKS Express 5.
-
 app.use(express.json());
 
-// ------------------- HMAC CONFIG -------------------
+// hmac config
 const API_KEY = process.env.API_KEY;
 const API_SECRET = process.env.API_SECRET;
 const UPSTREAM_API_URL = process.env.UPSTREAM_API_URL;
@@ -59,7 +78,7 @@ function signMessage(message) {
     .digest("hex");
 }
 
-// ------------------- POST ROUTE ---------------------
+// post route
 app.post("/api/waitlist", async (req, res) => {
   try {
     const body = JSON.stringify(req.body);
@@ -118,8 +137,12 @@ app.post("/api/waitlist", async (req, res) => {
 
 
 
+
+
+
 // ------------------- START SERVER -------------------
 const PORT = process.env.PORT || 4000;
+
 app.listen(PORT, () =>
   console.log(`Server running on port ${PORT}`)
 );

@@ -1,15 +1,4 @@
-// function WaitlistButton () {
-//     return (
-//         <>
-//             <input className="hero-email" type="email" placeholder="name@gmail.com" name="" id="" />
-//             <button className="hero-join">Join</button>
-//         </>
-
-//     )
-// }
-// export default WaitlistButton;
-
-import React, { useState } from 'react';
+import { useState } from 'react';
  import './waitlistButton.css'; 
 
 export default function WaitlistButton() {
